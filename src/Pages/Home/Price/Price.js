@@ -3,7 +3,9 @@ import React from 'react';
 const Price = ({price}) => {
     const {name,img} = price;
     return (
-        <div class="card col-sm-12 col-md-6 col-lg-4" style={{width: "18rem"}}>
+        <div className='col-sm-12 col-md-6 col-lg-4'>
+
+<div class="card " style={{width: "18rem"}}>
   <img src={img} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">{name}</h5>
@@ -11,6 +13,8 @@ const Price = ({price}) => {
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+        </div>
+        
     );
 };
 
