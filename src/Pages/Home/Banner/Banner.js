@@ -17,6 +17,7 @@ const Banner = () => {
           className="d-block w-100"
           src={banner1}
           alt="First slide"
+          
         />
         <Carousel.Caption>
           <h3>First slide label</h3>

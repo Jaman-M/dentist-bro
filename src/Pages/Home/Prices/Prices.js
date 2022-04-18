@@ -15,9 +15,9 @@ const prices = [
 
 const Prices = () => {
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <h2 className='text-info text-center'>Pricing</h2>
-            <div className='row'>
+            <div className='row mt-5'>
                 {
                     prices.map(price => <Price
                         key={price.id}
