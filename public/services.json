@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "name": "Dental Implant",
+    "prices": 400,
+    "description": "Find what you are looking for! 99% Match on Dental Implants Dubai. Find Here - Free, Private and Secure. Results & Answers. ",
+    "img": "https://static.wixstatic.com/media/9d19cd_e39e46a4d02548999939818ba6f1c703~mv2.jpg/v1/fill/w_576,h_432,al_c,lg_1,q_80,enc_auto/9d19cd_e39e46a4d02548999939818ba6f1c703~mv2.jpg"
+    
+  },
+  {
+    "id": "2",
+    "name": "Dental Bridges",
+    "prices": 500,
+    "description": "Find what you are looking for! 99% Match on Dental Implants Dubai. Find Here - Free, Private and Secure. Results & Answers. ",
+    "img": "https://westgatedentalcentre.com/wp-content/uploads/2022/01/home-bg-01.jpg"
+    
+  },
+  {
+    "id": "3",
+    "name": "Root Canel",
+    "prices": 600,
+    "description": "Find what you are looking for! 99% Match on Dental Implants Dubai. Find Here - Free, Private and Secure. Results & Answers. ",
+    "img": "https://brushinonbelmont.com/wp-content/uploads/2020/01/check-ups.jpeg"
+    
+  }
+ 
+  
+]
