@@ -15,7 +15,7 @@ const prices = [
 
 const Prices = () => {
     return (
-        <div className='container mt-5'>
+        <div id='pricing' className='container mt-5'>
             <h2 className='text-info text-center'>Pricing</h2>
             <div className='row mt-5'>
                 {
