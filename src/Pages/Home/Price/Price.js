@@ -9,7 +9,11 @@ const Price = ({price}) => {
   <img src={img} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{name}</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">
+      <li>$450 for 3 timess</li>
+      <li>$300 for 2 timess</li>
+      <li>$100 only one time</li>
+    </p>
     <a href="#" className="btn btn-info">Go somewhere</a>
   </div>
 </div>

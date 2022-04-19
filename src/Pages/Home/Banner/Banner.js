@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/banner (1).jpg';
 import banner2 from '../../../images/banner/banner (2).jpg';
 import banner3 from '../../../images/banner/banner (3).jpg';
+import css from '../Banner/Banner.css'
 const Banner = () => {
     const [index, setIndex] = useState(0);
 
@@ -11,7 +12,8 @@ const Banner = () => {
   };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <div className='photo'>
+          <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -51,6 +53,7 @@ const Banner = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+        </div>
     );
 };
 

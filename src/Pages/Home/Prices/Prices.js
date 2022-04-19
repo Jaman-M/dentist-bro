@@ -10,7 +10,7 @@ const prices = [
     {id: 1, name: 'Dental Whiting', img: price1},
     {id: 2, name: 'Root Treatment', img: price2},
     {id: 3, name: 'Dental Implant', img: price3},
-    {id: 4, name: 'Dental Whiting-2', img: price4},
+    
 ]
 
 const Prices = () => {
