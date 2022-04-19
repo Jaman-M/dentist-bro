@@ -23,6 +23,12 @@ const Register = () => {
         navigate('/login');
     }
 
+    if (error) {
+
+        return (
+            <p>Error: {error.message}</p>
+        );
+    }
     if(loading ){
         return <Loading></Loading>
     }

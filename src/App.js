@@ -17,6 +17,7 @@ function App() {
   return (
     <div>
       <Header></Header>
+      {/* <h1 className='text-center mt-3'>Dentist-Bro</h1> */}
       <Routes>
         <Route path = "/" element={<Home></Home>}></Route>
         <Route path = "/home" element={<Home></Home>}></Route>
@@ -32,7 +33,14 @@ function App() {
         }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Footer></Footer>
+      <footer className='mt-5 sticky-'>
+        <div class="card text-center bg-dark">
+          <div class="card-body">
+            <h5 class="card-title text-white">Md Manik</h5>
+            <p class="card-text text-white">Learner Programming Hero<br></br>Batch-5</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
